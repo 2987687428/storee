@@ -5,6 +5,8 @@
 本项目前后端分离，前端基于`Vue`+`Vue-router`+`Vuex`+`Element-ui`+`Axios`，参考小米商城实现。后端基于`Node.js(Koa框架)`+`Mysql`实现。
 
 后端采取了MVC模式
+
+数据存放在mysql中，所以本项目需要先建立数据库
 ## 技术栈
 
 前端：`Vue`+`Vue-router`+`Vuex`+`Element-ui`+`Axios`
@@ -12,8 +14,8 @@
 数据库：`Mysql`
 
 ## 运行项目
-（需要先运行后端 node app.js）
-cd store
+（需要先运行后端store-server node app.js）
+cd storee-main
 npm install
 
  1. Compiles and hot-reloads for development
