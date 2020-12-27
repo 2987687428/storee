@@ -1,7 +1,5 @@
+# Store（参考小米商城）
 
-## 说明
-
-> 本项目前后端分离，前端参考 [小米商城]
 
 ## 项目简介
 
@@ -11,7 +9,8 @@
 
 实现了商品的展示、商品分类查询、关键字搜索商品、商品详细信息展示、登录、注册、用户购物车、订单结算、用户订单、用户收藏列表以及错误处理功能。
 
-后端采取了MVC模式，根据前端需要的数据分模块设计了相应的接口、控制层、数据持久层
+后端采取了MVC模式，根据前端需要的数据分模块设计了相应的接口、控制层、数据持久层。
+
 ## 技术栈
 
 - **前端：**`Vue`+`Vue-router`+`Vuex`+`Element-ui`+`Axios`
@@ -52,7 +51,6 @@
 
 购物车采用vuex实现，页面效果参考了小米商城的购物车。
 
-
 ### 订单结算
 
 用户在购物车选择了准备购买的商品后，点击“去结算”按钮，会来到该页面。
@@ -67,19 +65,17 @@
 对用户的所有订单进行展示。
 
 ## 运行项目
-（需要先运行后端 node app.js）
+
+1. Project setup
+
 cd vue-store
 npm install
 
- 1. Compiles and hot-reloads for development
+2. Compiles and hot-reloads for development
 
 npm run serve
 
- 2. Compiles and minifies for production
+3. Compiles and minifies for production
 
 npm run build
-
-
-
-
-
+```
